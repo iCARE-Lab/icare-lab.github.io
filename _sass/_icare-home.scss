@@ -1,0 +1,70 @@
+/* ==========================================================================
+   iCARE LAB HOMEPAGE
+   ========================================================================== */
+
+.icare-hero {
+    margin: 0 0 2rem;
+    overflow: hidden;
+    background: #0b3042;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(11, 48, 66, 0.16);
+}
+
+.icare-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.research-overview {
+    margin-top: 2.5rem;
+}
+
+.research-overview>h2 {
+    margin-bottom: 1rem;
+    ccolor: #f4fbfc;
+}
+
+.research-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.research-card {
+    padding: 1.35rem;
+    background: #ffffff;
+    border: 1px solid #dce7e9;
+    border-top: 4px solid #16828b;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(11, 48, 66, 0.08);
+}
+
+.research-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    color: #123b4a;
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.research-card p {
+    margin-bottom: 0;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: #40545c;
+}
+
+@media (max-width: 850px) {
+    .research-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .author__urls,
+    .author__urls a {
+        color: #123b4a;
+    }
+}

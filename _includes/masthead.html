@@ -1,0 +1,38 @@
+{% include base_path %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button>
+          <div class="navicon"></div>
+        </button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a class="site-brand" href="{{ base_path }}/" aria-label="iCARE Lab home">
+              <span class="site-brand__logo" aria-hidden="true">
+                <img src="{{ base_path }}/images/icare-lab-logo.png" alt="">
+              </span>
+              <span class="site-brand__text">
+                <span class="site-brand__name">iCARE Lab</span>
+                <span class="site-brand__tagline">
+                  Intelligent Computing for<br>
+                  Advanced Research in Healthcare
+                </span>
+              </span>
+            </a>
+          </li>
+          {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+          {% assign domain = '' %}
+          {% else %}
+          {% assign domain = base_path %}
+          {% endif %}
+          <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
