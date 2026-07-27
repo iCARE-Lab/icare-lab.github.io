@@ -150,6 +150,10 @@ I strongly encourage students to apply course concepts through hands-on projects
 
 In Python for Data Science, students progress from foundational Python programming and data manipulation to visualization and machine learning before completing an applied data science project. Students are also encouraged to present their work through university research, analytics, and scholarly events.
 
+In Fall 2025, students **Luz Corral Parra and Anna Seville**, whom I mentored in DATA 4140 — Python for Data Science, earned **Third Place (tie) in the Undergraduate Poster Competition at KSU Analytics Day** for their project, *“Predicting Circuit Board Failure Using Machine Learning.”*
+
+In Spring 2026, **Bryce Wishart**, whom I mentored in DATA 4140 — Python for Data Science, earned **Second Place in the Undergraduate Category at KSU Analytics Day** for his project, *“Steam Marketplace: Deep Model Prediction of Video Game User Ratings.”*
+
 
 ## Teaching Interests
 
