@@ -1,0 +1,145 @@
+/* ABOUT ME */
+
+.team-about {
+    margin-top: -2rem;
+    margin-bottom: 2.5rem;
+}
+
+.team-about__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.team-about__text p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+.team-about__photo img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+
+/* TEAM SECTIONS */
+
+.team-members h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+
+/* THREE-COLUMN MEMBER GRID */
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+/* INDIVIDUAL TEAM MEMBER */
+
+.team-list {
+    margin-bottom: 2.5rem;
+}
+
+.team-profile {
+    display: flow-root;
+    padding: 1.25rem 0 1.75rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.team-profile__photo {
+    float: left;
+    width: 155px;
+    height: 185px;
+    object-fit: cover;
+    object-position: center top;
+
+    border-radius: 50%;
+    shape-outside: ellipse(50% 50%);
+
+    margin: 0.15rem 1.5rem 0.75rem 0;
+}
+
+.team-profile h4 {
+    margin: 0 0 0.2rem;
+    font-size: 1.15em;
+}
+
+.team-profile__role {
+    font-size: 0.92em;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.team-profile p {
+    margin: 0 0 0.75rem;
+    line-height: 1.55;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.team-profile__links {
+    font-size: 0.9em;
+}
+
+.team-profile__links span {
+    margin: 0 0.35rem;
+}
+
+/* TABLET */
+
+@media (max-width: 850px) {
+
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-about__grid {
+        grid-template-columns: 1fr 180px;
+    }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .team-about__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-profile__photo {
+        float: left;
+        width: 110px;
+        height: 135px;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 50%;
+        shape-outside: ellipse(50% 50%);
+        margin: 0.15rem 1rem 0.5rem 0;
+    }
+
+    .team-profile h4 {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .team-profile__role {
+        text-align: left;
+    }
+
+    .team-profile p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .team-profile__links {
+        text-align: left;
+    }
+}
