@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Muhammad Imran, Ph.D."
-  avatar           : "muhammad-imran.jpg"
+  avatar           : "https://icare-lab.org/images/muhammad-imran.jpg"
   bio              : "<b>Director, iCARE Lab</b><br>Assistant Professor<br>School of Data Science and Analytics<br>Kennesaw State University"
   location         : "Marietta, Georgia"
   employer         : "Kennesaw State University"
