@@ -1,0 +1,140 @@
+.publication-entry {
+    --publication-figure-width: 200px;
+    --publication-figure-height: 160px;
+
+    display: grid;
+    grid-template-columns: var(--publication-figure-width) 1fr;
+    gap: 0.75rem;
+    align-items: start;
+    margin: 0.2a5rem 0;
+}
+
+
+/* ---------------------------------------------------------
+   ALTERNATING FIGURE POSITION
+   Normal entries: image left
+   Reverse entries: image right
+   --------------------------------------------------------- */
+
+.publication-entry--reverse {
+    grid-template-columns: 1fr var(--publication-figure-width);
+}
+
+.publication-entry--reverse .publication-entry__figure {
+    order: 2;
+    justify-self: end;
+}
+
+
+/* ---------------------------------------------------------
+   FIGURE CONTAINER
+   Every publication gets exactly the same figure area.
+   --------------------------------------------------------- */
+
+.publication-entry__figure {
+    margin: 0;
+    padding: 0;
+
+    width: var(--publication-figure-width);
+    height: var(--publication-figure-height);
+
+    justify-self: start;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------------------
+   IMAGE
+   Every image is forced into the same 200 x 140 px box.
+   object-fit: contain keeps the complete image visible
+   without stretching or cropping it.
+   --------------------------------------------------------- */
+
+.publication-entry__figure img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    object-position: center;
+
+    margin: 0;
+    padding: 0;
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------------------------------------
+   PUBLICATION TEXT
+   --------------------------------------------------------- */
+
+.publication-entry__content {
+    min-width: 0;
+}
+
+.publication-entry__content h3 {
+    margin-top: 0;
+}
+
+.publication-entry__citation {
+    margin: 0 0 0.35rem 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.publication-entry__content>p:last-child {
+    margin-top: 0;
+    margin-bottom: 0.9;
+}
+
+
+/* ---------------------------------------------------------
+   IMPORTANT:
+   Portrait publications should NOT get a different size.
+   The class can remain in your HTML, but it no longer
+   changes the dimensions.
+   --------------------------------------------------------- */
+
+.publication-entry--portrait {
+    grid-template-columns: var(--publication-figure-width) 1fr;
+}
+
+.publication-entry--portrait.publication-entry--reverse {
+    grid-template-columns: 1fr var(--publication-figure-width);
+}
+
+
+/* ---------------------------------------------------------
+   TABLET / MOBILE
+   --------------------------------------------------------- */
+
+@media (max-width: 850px) {
+
+    .publication-entry,
+    .publication-entry--reverse,
+    .publication-entry--portrait,
+    .publication-entry--portrait.publication-entry--reverse {
+        grid-template-columns: 1fr;
+    }
+
+    .publication-entry--reverse .publication-entry__figure {
+        order: 0;
+        justify-self: start;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .publication-entry__citation {
+        text-align: left;
+    }
+}
