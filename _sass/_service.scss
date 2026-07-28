@@ -1,0 +1,73 @@
+/* ==========================================================================
+   PROFESSIONAL SERVICE PAGE
+   ========================================================================== */
+
+.service-page {
+    margin-top: -0.25rem;
+}
+
+.service-page>p:first-of-type {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.service-page h2 {
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Individual service activities */
+.service-entry {
+    padding: 0.85rem 0 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.service-entry:last-of-type {
+    border-bottom: 0;
+}
+
+.service-entry h3 {
+    margin: 0 0 0.55rem;
+    font-size: 1.05em;
+    line-height: 1.4;
+}
+
+.service-entry p {
+    margin: 0;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Peer-review and membership lists */
+.service-page ul {
+    margin-top: 0.6rem;
+    margin-bottom: 1.25rem;
+}
+
+.service-page li {
+    margin-bottom: 0.4rem;
+    line-height: 1.45;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .service-page {
+        margin-top: 0;
+    }
+
+    .service-page h2 {
+        margin-top: 1.75rem;
+    }
+
+    .service-entry {
+        padding: 0.75rem 0 1rem;
+    }
+
+    .service-entry h3 {
+        font-size: 1em;
+    }
+
+}

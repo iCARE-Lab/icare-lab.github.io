@@ -12,14 +12,18 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Code"
-    url: /code/
+  # - title: "Code"
+  #   url: /code/
 
   #- title: "Schedule"
   #  url: /schedule/
 
-  - title: "Resources"
-    url: /resources/
+  # - title: "Resources"
+  #   url: /resources/
+
+  - title: "Service"
+    url: /professional-service/
+
 
   - title: "News"
     url: /news/
