@@ -85,6 +85,16 @@ The project applied deep learning methods to predict video game user ratings and
 
 <div class="news-entry" markdown="1">
 
+### March 2026 — Research Presented at American Mathematical Society Meeting
+
+Our work, **“Beyond the Baseline: A Comparative Analysis of Vision-Language Models and ResNet50 for Few-Shot and Full-Data Cancer Classification,”** was presented at the **2026 American Mathematical Society Spring Southeastern Sectional Meeting** in Savannah, Georgia.
+
+The project was conducted with undergraduate researchers **Alex Rojas, Alayna Zafar, and Sagar Patil** as part of their mentored research in artificial intelligence for medical image analysis.
+
+</div>
+
+<div class="news-entry" markdown="1">
+
 ### Spring 2026 — Undergraduate Research Presented at Multiple Scholarly Events
 
 Students mentored through the Kennesaw State University First-Year Scholars Program conducted research on artificial intelligence for medical image analysis.

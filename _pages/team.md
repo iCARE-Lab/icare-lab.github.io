@@ -65,11 +65,11 @@ hide_title: true
   <h4>Saddam Hossain Irfan</h4>
 
   <div class="team-profile__role">
-    Ph.D. Student, Data Science
+    Ph.D. Student, Data Science & Analytics
   </div>
 
   <p>
-    Saddam Hossain Irfan is a Ph.D. student in Data Science at Kennesaw State
+    Saddam Hossain Irfan is a Ph.D. student in Data Science & Analytics at Kennesaw State
     University and a member of the iCARE Lab. His research interests include
     machine learning, statistical modeling, data engineering, and healthcare
     analytics. Before beginning his doctoral studies, he gained more than six
@@ -88,6 +88,38 @@ hide_title: true
     <a href="https://scholar.google.com/citations?user=4tLxP1EAAAAJ&hl=en"
        target="_blank" rel="noopener">Google Scholar</a>
   </div>
+
+  <!-- NONG MING -->
+<div class="team-profile team-profile--reverse">
+
+  <img class="team-profile__photo"
+       src="{{ base_path }}/images/Nong_Ming.jpeg"
+       alt="Nong Ming">
+
+  <h4>Nong Ming</h4>
+
+  <div class="team-profile__role">
+    Ph.D. Student, Data Science & Analytics
+  </div>
+
+  <p>
+    Nong Ming is a Ph.D. student in the Data Science and Analytics program at
+    Kennesaw State University and a member of the iCARE Lab. She earned her
+    Master's degree in Computer Science from Kennesaw State University in May
+    2025 and began her doctoral studies in Fall 2025. Her research interests
+    include large language model–based agents, multi-agent systems, and
+    autonomous artificial intelligence.
+  </p>
+
+  <div class="team-profile__links">
+    <a href="https://www.linkedin.com/in/nongming/"
+       target="_blank" rel="noopener">LinkedIn</a>
+    <span>|</span>
+    <a href="https://scholar.google.com/citations?hl=en&user=V5ag68wAAAAJ"
+       target="_blank" rel="noopener">Google Scholar</a>
+  </div>
+
+</div>
 
 </div>
 

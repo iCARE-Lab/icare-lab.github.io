@@ -8,7 +8,7 @@ author_profile: true
 
 *No current preprints.*
 
-## Journal Publications
+## Journal & Conference Publications
 
 <div class="publication-entry publication-entry--reverse">
   <figure class="publication-entry__figure">
@@ -400,7 +400,7 @@ author_profile: true
   </div>
 </div>
 
-## Conference Publications
+
 
 ## Undergraduate Publications
 

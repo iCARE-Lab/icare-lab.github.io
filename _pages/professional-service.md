@@ -59,6 +59,19 @@ Served as **Associate Publication Chair** for the **IEEE International Conferenc
 
 </div>
 
+## Invited Talks & Presentations
+
+<div class="service-entry" markdown="1">
+
+### 2026 — Invited Talk, American Mathematical Society Spring Southeastern Sectional Meeting
+
+Presented **“Beyond the Baseline: A Comparative Analysis of Vision-Language Models and ResNet50 for Few-Shot and Full-Data Cancer Classification”** at the **2026 American Mathematical Society Spring Southeastern Sectional Meeting**, Georgia Southern University–Armstrong Campus, Savannah, Georgia, March 28–29, 2026.
+
+**Authors:** Muhammad Imran, Alex Rojas, Alayna Zafar, and Sagar Patil  
+**AMS Reference ID:** 60693
+
+</div>
+
 ## Peer Review
 
 I have contributed to scholarly peer review in artificial intelligence, engineering, medical imaging, and related areas. Selected venues include:

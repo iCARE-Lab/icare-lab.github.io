@@ -66,6 +66,12 @@
     margin: 0.15rem 1.5rem 0.75rem 0;
 }
 
+/* Alternate team member layout: photo on the right */
+.team-profile--reverse .team-profile__photo {
+    float: right;
+    margin: 0.35rem 0 0.75rem 1.5rem;
+}
+
 .team-profile h4 {
     margin: 0 0 0.2rem;
     font-size: 1.15em;
