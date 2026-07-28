@@ -89,6 +89,7 @@ hide_title: true
        target="_blank" rel="noopener">Google Scholar</a>
   </div>
 
+</div>
   <!-- NONG MING -->
 <div class="team-profile team-profile--reverse">
 
@@ -120,6 +121,39 @@ hide_title: true
   </div>
 
 </div>
+<!-- VINEETHA BURUGUPALLI -->
+<div class="team-profile">
+
+  <img class="team-profile__photo"
+       src="{{ base_path }}/images/Vineetha_Burugupalli.jpeg"
+       alt="Vineetha Burugupalli">
+
+  <h4>Vineetha Burugupalli</h4>
+
+  <div class="team-profile__role">
+    Ph.D. Student, Data Science & Analytics
+  </div>
+
+  <p>
+    Vineetha Burugupalli is a Ph.D. student in Data Science & Analytics at
+    Kennesaw State University and a member of the iCARE Lab. She earned her
+    bachelor's degree in Civil Engineering from the National Institute of
+    Technology, Jamshedpur, India, and her master's degree in Data Science and
+    Analytics from Georgia State University. Her research interests include
+    artificial intelligence, agentic systems, multimodal data science,
+    responsible AI, causal inference, and generative models. Her professional
+    goals include advancing research that contributes to both academic and
+    industry practice and developing AI systems capable of addressing complex
+    real-world problems at scale.
+  </p>
+
+  <div class="team-profile__links">
+    <a href="https://www.linkedin.com/in/vineetha-b-240119146/"
+       target="_blank" rel="noopener">LinkedIn</a>
+    <span>|</span>
+    <span class="team-profile__link-placeholder">Google Scholar</span>
+  </div>
+
 
 </div>
 
@@ -163,4 +197,8 @@ hide_title: true
 
   -->
 
-</div>
+</div> <!-- /.team-list -->
+
+</section> <!-- /.team-members -->
+
+</div> <!-- /.team-page -->
