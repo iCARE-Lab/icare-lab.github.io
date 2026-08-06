@@ -199,6 +199,47 @@ hide_title: true
 
 </div> <!-- /.team-list -->
 
+
+<!-- UNDERGRADUATE RESEARCH ALUMNI -->
+<h3>Undergraduate Research Alumni</h3>
+
+<div class="team-list">
+
+  <!-- ALAYNA ZAFAR -->
+  <div class="team-profile">
+
+    <img class="team-profile__photo"
+         src="{{ base_path }}/images/Alayna_Zafar.png"
+         alt="Alayna Zafar">
+
+    <h4>Alayna Zafar</h4>
+
+    <div class="team-profile__role">
+      First-Year Scholar, 2025–2026
+    </div>
+
+    <p>
+      Alayna Zafar is a Biology (Pre-Med) student at Kennesaw State University
+      with interests in medicine, artificial intelligence, and biomedical
+      research. As a member of the 2025–2026 First-Year Scholars research team,
+      she investigated the application of artificial intelligence to medical
+      image analysis and cancer classification. She aspires to become an
+      orthopedic surgeon and is interested in combining compassionate clinical
+      care with scientific and technological innovation.
+    </p>
+
+    <div class="team-profile__links">
+  <a href="https://www.linkedin.com/in/alayna-zafar3-med"
+     target="_blank" rel="noopener">LinkedIn</a>
+  <span>|</span>
+  <span class="team-profile__link-placeholder">Google Scholar</span>
+</div>
+
+  </div>
+
+</div> <!-- /.team-list -->
+
+
 </section> <!-- /.team-members -->
 
 </div> <!-- /.team-page -->
