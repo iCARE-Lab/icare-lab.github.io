@@ -13,7 +13,7 @@ author_profile: true
 
 ### July 2026 — iCARE Lab Website Launched
 
-The official website of the Intelligent Computing for Advanced Research in Healthcare (iCARE) Lab is now live. The website provides information about our research, publications, research team, teaching activities, software, resources, and recent developments.
+The official website of the Intelligent Computing for Advanced Research in Healthcare (iCARE) Lab is now live. The website provides information about our research, publications, research team, teaching activities, professional service, and recent developments.
 
 </div>
 
@@ -85,6 +85,28 @@ The project applied deep learning methods to predict video game user ratings and
 
 <div class="news-entry" markdown="1">
 
+### April 2026 — First-Year Scholar Presents Cancer Classification Research at NCUR 2026
+
+Undergraduate researcher **Alayna Zafar**, a member of the 2025–2026 Kennesaw State University First-Year Scholars research team, presented the project **“Beyond the Baseline: A Comparative Analysis of Vision-Language Models and ResNet50 for Few-Shot and Full-Data Cancer Classification”** at the **National Conference on Undergraduate Research (NCUR 2026)**, held April 13–15, 2026, in Richmond, Virginia.
+
+The project was conducted by **Alex Rojas, Sagar Patil, and Alayna Zafar** under mentorship through the iCARE Lab. The research compared vision-language models and ResNet50 for cancer image classification under few-shot and full-data learning settings. The work was also presented at the **KSU Symposium of Student Scholars**.
+
+<figure class="news-photo news-photo--ncur">
+  <img src="{{ base_path }}/images/Alayna_Zafar_NCUR_2026.png"
+       alt="Alayna Zafar presenting cancer classification research at NCUR 2026">
+
+  <figcaption>
+    Alayna Zafar presenting the First-Year Scholars team’s cancer-classification research at NCUR 2026 in Richmond, Virginia.
+  </figcaption>
+</figure>
+
+Reflecting on her experiences at NCUR and the KSU Symposium, Alayna shared that presenting the research strengthened her ability to communicate complex scientific concepts to diverse audiences, enhanced her confidence as a presenter, and reinforced her interest in combining clinical medicine with scientific innovation.
+
+</div>
+
+
+<div class="news-entry" markdown="1">
+
 ### March 2026 — Research Presented at American Mathematical Society Meeting
 
 Our work, **“Beyond the Baseline: A Comparative Analysis of Vision-Language Models and ResNet50 for Few-Shot and Full-Data Cancer Classification,”** was presented at the **2026 American Mathematical Society Spring Southeastern Sectional Meeting** in Savannah, Georgia.
@@ -93,15 +115,7 @@ The project was conducted with undergraduate researchers **Alex Rojas, Alayna Za
 
 </div>
 
-<div class="news-entry" markdown="1">
 
-### Spring 2026 — Undergraduate Research Presented at Multiple Scholarly Events
-
-Students mentored through the Kennesaw State University First-Year Scholars Program conducted research on artificial intelligence for medical image analysis.
-
-The project was selected for presentation at multiple scholarly events, including the **KSU Symposium of Student Scholars**, **KSU Analytics Day**, the **2026 National Conference on Undergraduate Research**, and the **2026 Spring Southeastern Sectional Meeting of the American Mathematical Society**.
-
-</div>
 
 <div class="news-entry" markdown="1">
 
@@ -113,15 +127,6 @@ The new computing environment supports ongoing work in medical image segmentatio
 
 </div>
 
-<div class="news-entry" markdown="1">
-
-### January 2026 — Undergraduate Research Accepted for Presentation at NCUR 2026
-
-An undergraduate research project I mentored through the **Kennesaw State University First-Year Scholars Program** was accepted for poster presentation at the **National Conference on Undergraduate Research (NCUR) 2026**, held April 13–15, 2026, in Richmond, Virginia.
-
-The accepted project, **“Beyond the Baseline: A Comparative Analysis of Vision-Language Models and ResNet50 for Few-Shot and Full-Data Cancer Classification,”** investigates the use of vision-language models and conventional deep learning approaches for cancer image classification under both limited-data and full-data settings.
-
-</div>
 
 
 ## 2025
